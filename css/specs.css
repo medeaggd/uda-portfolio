@@ -35,9 +35,13 @@
       text-align: center;
   }
 
-  .link {
-      text-align: center;
+  .connections {
       font-size: 10pt;
+  }
+
+  .connect_icon {
+      width: 25px;
+      height: 25px;
   }
 }
 
@@ -64,16 +68,11 @@
   .proj_title {
       text-align: center;
   }
-
-  .link {
-      text-align: center;
-      font-size: 10pt;
-  }
 }
 
 
-/* For screens larger than 600px */
-@media screen and (min-width: 600px) {
+/* For screens larger than 650px */
+@media screen and (min-width: 650px) {
 
   .core_photo {
       width: 80%;
@@ -81,7 +80,7 @@
       margin: auto;
   }
 
-  .feature {
+  .feature_work {
       display: flex;
       flex-flow: row wrap;
       width: 30%;
@@ -95,5 +94,20 @@
 
   .link a {
       font-size: 8pt;
+  }
+}
+
+/* For screens larger than 900px */
+@media screen and (min-width: 900px) {
+
+  .core_photo {
+      width: 80%;
+      max-width: 1225px;
+      display: block;
+      margin: auto;
+  }
+
+  .feat_pic {
+      width: 275px;
   }
 }

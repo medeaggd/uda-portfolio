@@ -61,22 +61,6 @@ h1, h2, h3, h4, h5 {
     transform: skew(10deg, 10deg);
 }
 
-.link a {
-    text-decoration: none;
-    color: #000;
-    background-color: #fff;
-}
-
-.link a:hover {
-    text-decoration: underline;
-    color: #a00;
-}
-
-.link a:visited {
-    text-decoration: underline;
-    color: #00a;
-}
-
 .connections {
     text-align: left;
     font-size: 14pt;
