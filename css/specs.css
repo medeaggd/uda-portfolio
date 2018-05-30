@@ -21,8 +21,12 @@
       margin: auto;
   }
 
+  .core p {
+      font-size: 14pt;
+  }
+
   .feature {
-      width: calc(max-width - 10px);
+      width: calc(max-width - 40px);
   }
 
   .feat_pic {
@@ -45,8 +49,8 @@
   }
 }
 
-/* For screens smaller than 599px */
-@media screen and (min-width: 451px) and (max-width: 599px) {
+/* For screens smaller than 649px */
+@media screen and (min-width: 451px) and (max-width: 649px) {
 
   .core_photo {
       width: 90%;
@@ -81,19 +85,18 @@
   }
 
   .feature_work {
-      width: 30%;
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
   }
 
-  .feat_pic {
-      width: 200px;
-      display: block;
-      margin: auto;
+  .feature {
+      width: 33%;
   }
 
-  .link a {
-      font-size: 8pt;
+  .feat_pic {
+      display: block;
+      margin: auto;
   }
 }
 
