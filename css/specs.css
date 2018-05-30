@@ -1,0 +1,56 @@
+/* For screens smaller than 599px */
+@media screen and (max-width: 599px) {
+
+  .core_photo {
+      width: 90%;
+      max-width: 550px;
+      display: block;
+      margin: auto;
+  }
+
+  .feature {
+      width: calc(max-width - 10px);
+  }
+
+  .feat_pic {
+      display: block;
+      margin: auto;
+      max-width: 348px;
+  }
+
+  .proj_title {
+      text-align: center;
+  }
+
+  .link {
+      text-align: center;
+      font-size: 10pt;
+  }
+}
+
+
+/* For screens larger than 600px */
+@media screen and (min-width: 600px) {
+
+  .core_photo {
+      width: 80%;
+      display: block;
+      margin: auto;
+  }
+
+  .feature {
+      display: flex;
+      flex-flow: row wrap;
+      width: 30%;
+  }
+
+  .feat_pic {
+      width: 200px;
+      display: block;
+      margin: auto;
+  }
+
+  .link a {
+      font-size: 8pt;
+  }
+}
