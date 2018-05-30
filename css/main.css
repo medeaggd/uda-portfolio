@@ -18,17 +18,6 @@ header, main, footer {
 h1, h2, h3, h4, h5 {
   margin: 0;
 }
-/* Temporary necessity to see containers */
-.proj_1 {
-    background-color: blue;
-}
-.proj_2 {
-    background-color: yellow;
-}
-.proj_3 {
-    background-color: red;
-}
-/* Delete above after containers solved*/
 
 .logo {
     width: 100px;
@@ -55,6 +44,11 @@ h1, h2, h3, h4, h5 {
 .feature_work h3 {
     text-align: center;
     padding: 5px;
+}
+
+.feature {
+    background-color: #fff;
+    text-align: center;
 }
 
 .feat_pic:active {

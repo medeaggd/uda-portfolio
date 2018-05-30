@@ -81,9 +81,9 @@
   }
 
   .feature_work {
-      display: flex;
-      flex-flow: row wrap;
       width: 30%;
+      display: flex;
+      flex-wrap: wrap;
   }
 
   .feat_pic {
