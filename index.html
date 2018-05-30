@@ -13,21 +13,25 @@
 
 
   <body>
+    <!-- Header section to include logo, name, and title. -->
     <header>
       <div class="header_name">
         <img src="img/logo-caticorn.png" alt="Rainbow Caticorn Logo" class="logo">
-        <!--Background of logo: 1bb3b5-->
+        <!--Background of logo: #1bb3b5-->
         <h1>Megan Quinn</h1>
         <h3>Front-End Web Wizard</h3>
       </div>
     </header>
+    <!-- Line break to separate main content from header. -->
     <div class="break"></div>
+    <!-- Main section includes all articles of the page as well as an overarching photo theme. -->
     <main>
+      <!-- Core section features a photo to develop the idea behind the page. -->
       <section class="core">
         <picture>
-          <source media="(min-width: 600px)" srcset="img/page-code-1225w.jpg">
-          <source media="(max-width: 599px)" srcset=img/page-code-600w.jpg>
-          <img src="img/page-code-600w.jpg" alt="Scripting this page" class="core_photo">
+          <source media="(min-width: 900px)" srcset="img/page-code-1225w.jpg">
+          <source media="(min-width: 450px)" srcset=img/page-code-600w.jpg>
+          <img src="img/page-code-200w.jpg" alt="Scripting this page" class="core_photo">
         </picture>
       </section>
 
@@ -35,7 +39,11 @@
         <h3>Featured Work</h3>
           <div class="feature proj_1">
               <a href="https://codepen.io/medeaggd/pen/zRBmbK" target="_blank">
-                <img src="img/lipizzan-348w.jpg" alt="Lipizzan Horse Trading Card" class="feat_pic"></a>
+                <picture>
+                  <source media="(min-width: 450px)" srcset="img/lipizzan-348w.jpg">
+                  <img src="img/lipizzan-100w.jpg" alt="Lipizzan Horse Trading Card" class="feat_pic">
+                </picture>
+              </a>
               <br>
               <h4 class="proj_title">Animal Trading Card</h4>
               <br>
@@ -45,7 +53,11 @@
           </div>
           <div class="feature proj_2">
               <a href="https://github.com/medeaggd/HomeTownApp" target="_blank">
-                <img src="img/hometown-348w.jpg" alt="The Spring Times" class="feat_pic"></a>
+                <picture>
+                  <source media="(min-width: 450px)" srcset="img/hometown-348w.jpg">
+                  <img src="img/hometown-100w.jpg" alt="The Spring Times" class="feat_pic">
+                </picture>
+              </a>
               <br>
               <h4 class="proj_title">Home Town App</h4>
               <br>
@@ -55,7 +67,11 @@
           </div>
           <div class="feature proj_3">
               <a href="https://codepen.io/medeaggd/pen/Yagord" target="_blank">
-                <img src="img/pixel-art-348w.jpg" alt="Pixel Art Maker" class="feat_pic"></a>
+                <picture>
+                  <source media="(min-width: 450px)" srcset="img/pixel-art-348w.jpg">
+                  <img src="img/pixel-art-100w.jpg" alt="Pixel Art Maker" class="feat_pic">
+                </picture>
+              </a>
               <br>
               <h4 class="proj_title">Pixel Art Maker</h4>
               <br>

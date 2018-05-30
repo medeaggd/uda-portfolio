@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5 {
 .proj_3 {
     background-color: red;
 }
-/*Delete above after containers solved*/
+/* Delete above after containers solved*/
 
 .logo {
     width: 100px;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5 {
 .connections {
     text-align: left;
     font-size: 14pt;
-    display: float;
+    flex-wrap: wrap;
 }
 
 .connections img {
