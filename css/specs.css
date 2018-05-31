@@ -91,10 +91,12 @@
   }
 
   .feature {
-      width: 33%;
+      width: calc(33% - 4px);
+      margin: 2px;
   }
 
   .feat_pic {
+      width: calc(100% - 8px);
       display: block;
       margin: auto;
   }
@@ -108,9 +110,5 @@
       max-width: 1225px;
       display: block;
       margin: auto;
-  }
-
-  .feat_pic {
-      width: 275px;
   }
 }
